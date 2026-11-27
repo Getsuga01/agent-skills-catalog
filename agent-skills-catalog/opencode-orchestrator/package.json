@@ -1,0 +1,18 @@
+{
+  "name": "opencode-orchestrator",
+  "version": "1.0.0",
+  "description": "Orquestrador visual de Skills e Agentes do OpenCode com rastreamento de tarefas em tempo real",
+  "main": "index.js",
+  "bin": {
+    "opencode": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node testar-automatico.js",
+    "test:mcp": "node testar-mcp.js",
+    "mcp": "node mcp-server.js"
+  },
+  "keywords": ["opencode", "skills", "agents", "orchestrator", "cli"],
+  "license": "MIT"
+}
